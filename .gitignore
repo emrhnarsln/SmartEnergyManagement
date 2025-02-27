@@ -1,2 +1,28 @@
-# Project exclude paths
-/out/
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Build output
+bin/
+*.class
+
+# Dependencies
+*.jar
+
+# Maven
+target/
+
+# Eclipse
+.classpath
+.project
+
+# Miscellaneous
+*.log
+*.bak
+*.swp
