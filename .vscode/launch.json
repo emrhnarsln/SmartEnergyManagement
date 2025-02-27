@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Run",
+            "request": "launch",
+            "mainClass": "tr.com.nemesis.test.Run",
+            "projectName": "DBMS-PROJECT",
+            "classPaths": ["${workspaceFolder}/libraries/mysql-connector-j-8.4.0.jar","${workspaceFolder}/out/production/DBMS-PROJECT"]
+        }
+    ]
+}
